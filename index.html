@@ -18,11 +18,44 @@
             height="1"
             width="0.3"
             material="shader: flat; color: red; side: double"
-            position="0 0 0"
+            position="5 5 0"
             rotation="0 0 0"
             animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse"
-            animation__position="property: position; from: 0 0 10; to: 0 0 -10; loop: true; dur: 10000; easing: linear"
-            animation__color="property: components.material.material.color; type: color; from: red; to: blue; loop: true; dur: 1000; easing: linear"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 10000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="5 -5 0"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 10000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="-5 5 0"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 10000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="-5 -5 0"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 10000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
             ></a-plane>
         </a-marker>
         <a-entity camera></a-entity>
