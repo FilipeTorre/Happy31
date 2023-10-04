@@ -14,17 +14,16 @@
             animation__PartOne="property: rotation; from: 0 0 0; to: 0 0 360; loop: true; dur: 5000; easing: easeInOutQuad"
             ></a-entity>
            
-            <a-entity
-            geometry="primitive: plane"
+            <a-plane
             height="1"
             width="0.3"
             material="shader: flat; color: red; side: double"
             position="0 0 0"
             rotation="0 0 0"
             animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse"
-            animation__position="property: position; from: 0 0 0; to: 0 10 0; loop: true; dur: 10000; easing: linear"
+            animation__position="property: position; from: 0 0 10; to: 0 0 -10; loop: true; dur: 10000; easing: linear"
             animation__color="property: components.material.material.color; type: color; from: red; to: blue; loop: true; dur: 1000; easing: linear"
-            ></a-entity>
+            ></a-plane>
         </a-marker>
         <a-entity camera></a-entity>
         </a-scene>
