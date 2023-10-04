@@ -13,14 +13,15 @@
             gltf-model="https://raw.githubusercontent.com/FilipeTorre/Happy31/main/31.gltf"
             animation__PartOne="property: rotation; from: 0 0 0; to: 0 0 360; loop: true; dur: 5000; easing: easeInOutQuad"
             ></a-entity>
-           
+
+            
             <a-plane
             height="1"
             width="0.3"
             material="shader: flat; color: red; side: double"
             position="0 0 -10"
             rotation="0 0 0"
-            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
             animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
             animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
             ></a-plane>
@@ -31,7 +32,7 @@
             material="shader: flat; color: red; side: double"
             position="0 0 -10"
             rotation="0 0 0"
-            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
             animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
             animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
             ></a-plane>
@@ -42,7 +43,7 @@
             material="shader: flat; color: red; side: double"
             position="0 0 -10"
             rotation="0 0 0"
-            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
             animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
             animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
             ></a-plane>
@@ -53,10 +54,847 @@
             material="shader: flat; color: red; side: double"
             position="0 0 -10"
             rotation="0 0 0"
-            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
             animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
             animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
             ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 0"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 0"
+            animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 100"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 250"
+            animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 200"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 500"
+            animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+
+            <a-plane
+            height="1"
+            width="0.3"
+            material="shader: flat; color: red; side: double"
+            position="0 0 -10"
+            rotation="0 0 0"
+            animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse; delay: 300"
+            animation__position="property: position; from: 0 0 -10; to: 0 0 10; loop: true; dur: 2000; easing: linear; delay: 750"
+            animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
+            ></a-plane>
+            
         </a-marker>
         <a-entity camera></a-entity>
         </a-scene>
