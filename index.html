@@ -10,17 +10,11 @@
             position="0 0 0"
             rotation="0 0 0"
             scale="0.5 0.5 0.5"
-            gltf-model="https://raw.githubusercontent.com/FilipeTorre/TesteModelAR/main/TesteAR.gltf"
-            animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; dur: 10000; easing: linear"
+            gltf-model="https://raw.githubusercontent.com/FilipeTorre/Happy31/main/31.gltf"
+            animation__PartOne="property: rotation; from: 0 0 -30; to: 0 0 30; loop: false; dur: 2500; easing: easeInOutQuad; autoplay: True; startEvents: animationcomplete__PartTwo"
+            animation__PartTwo="property: rotation; from: 0 0 30; to: 0 0 -30; loop: false; dur: 5000; easing: easeInOutQuad; autoplay: False; startEvents: animationcomplete__PartOne"
             ></a-entity>
-            <a-entity
-            position="0.2 0.2 0.2"
-            rotation="0 0 0"
-            scale="0.5 0.5 0.5"
-            gltf-model="https://raw.githubusercontent.com/FilipeTorre/TesteModelAR/main/TesteAR.gltf"
-            material="shader: flat; color: red"
-            animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; dur: 10000; easing: linear; dir: reverse"
-            ></a-entity>
+           
             <a-entity
             geometry="primitive: plane"
             material="shader: flat; color: red; side: double"
