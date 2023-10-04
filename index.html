@@ -7,7 +7,7 @@
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
         <a-marker type='barcode' value='5'>
             <a-entity
-            position="0 0 0"
+            position="0 0 -10"
             rotation="0 0 0"
             scale="2 2 2"
             gltf-model="https://raw.githubusercontent.com/FilipeTorre/Happy31/main/31.gltf"
@@ -18,10 +18,10 @@
             height="1"
             width="0.3"
             material="shader: flat; color: red; side: double"
-            position="5 5 0"
+            position="0 0 -10"
             rotation="0 0 0"
             animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse"
-            animation__position="property: position; from: 5 5 -10; to: 5 5 10; loop: true; dur: 10000; easing: linear; delay: 0"
+            animation__position="property: position; from: 5 5 -10; to: 5 5 10; loop: true; dur: 2000; easing: linear; delay: 2000"
             animation__color="property: components.material.material.color; type: color; from: blue; to: orange; loop: true; dur: 1000; easing: linear"
             ></a-plane>
 
@@ -29,10 +29,10 @@
             height="1"
             width="0.3"
             material="shader: flat; color: red; side: double"
-            position="5 -5 0"
+            position="0 0 -10"
             rotation="0 0 0"
             animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse"
-            animation__position="property: position; from: 5 -5 -10; to: 5 -5 10; loop: true; dur: 10000; easing: linear; delay: 0"
+            animation__position="property: position; from: 5 -5 -10; to: 5 -5 10; loop: true; dur: 2000; easing: linear; delay: 1000"
             animation__color="property: components.material.material.color; type: color; from: orange; to: green; loop: true; dur: 1000; easing: linear"
             ></a-plane>
 
@@ -40,10 +40,10 @@
             height="1"
             width="0.3"
             material="shader: flat; color: red; side: double"
-            position="-5 5 0"
+            position="0 0 -10"
             rotation="0 0 0"
             animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse"
-            animation__position="property: position; from: -5 5 -10; to: -5 5 10; loop: true; dur: 10000; easing: linear; delay: 0"
+            animation__position="property: position; from: -5 5 -10; to: -5 5 10; loop: true; dur: 2000; easing: linear; delay: 0"
             animation__color="property: components.material.material.color; type: color; from: green; to: yellow; loop: true; dur: 1000; easing: linear"
             ></a-plane>
 
@@ -51,10 +51,10 @@
             height="1"
             width="0.3"
             material="shader: flat; color: red; side: double"
-            position="-5 -5 0"
+            position="0 0 -10"
             rotation="0 0 0"
             animation__rotation="property: rotation; from: 0 0 0; to: 360 360 360; loop: true; dur: 1000; easing: linear; dir: reverse"
-            animation__position="property: position; from: -5 -5 -10; to: -5 -5 10; loop: true; dur: 10000; easing: linear; delay: 0"
+            animation__position="property: position; from: -5 -5 -10; to: -5 -5 10; loop: true; dur: 2000; easing: linear; delay: 3000"
             animation__color="property: components.material.material.color; type: color; from: yellow; to: purple; loop: true; dur: 1000; easing: linear"
             ></a-plane>
         </a-marker>
